@@ -1,4 +1,4 @@
-package paul.zhang.vertx.example.core.net.proxy;
+package paul.zhang.vertx.example.core.net.http.proxy;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpClient;
