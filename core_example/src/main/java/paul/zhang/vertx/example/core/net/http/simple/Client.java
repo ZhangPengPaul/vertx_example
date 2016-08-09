@@ -16,9 +16,7 @@ public class Client extends AbstractVerticle {
     public void start() throws Exception {
         vertx.createHttpClient().getNow(8888, "localhost", "/", response -> {
             System.out.println("Got response: " + response.statusCode());
-            response.bodyHandler(body -> {
-                System.out.println("Got data: " + body.toString("UTF-8"));
-            });
+            response.bodyHandler(body -> System.out.println("Got data: " + body.toString("UTF-8")));
         });
     }
 }
