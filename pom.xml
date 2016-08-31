@@ -10,6 +10,7 @@
     <modules>
         <module>core_example</module>
         <module>web_example</module>
+        <module>vertx_spring</module>
     </modules>
     <packaging>pom</packaging>
 
